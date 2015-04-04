@@ -13,7 +13,7 @@ class cari extends CI_Controller {
 
 	function index() {
 	
-	$id_user = '69e4b759180d';
+	$id_user = '123456789012';
 	
 	foreach($this->model_cari->cari_no($id_user) as $cari_no){
 	
