@@ -6,7 +6,7 @@ class model_cari extends CI_Model {
 	function cari_no($id_user) { 
 	
 		// cari data dengan cakupan array
-		$sql_cari_no = "select telp from telp where pic_input = '$id_user';";
+		$sql_cari_no = "select telp from xp where pic_input = '$id_user';";
 		
 		// eksekusi database, ambil data user, buat kembalian data user
 		return $this->db->query($sql_cari_no)->result();
